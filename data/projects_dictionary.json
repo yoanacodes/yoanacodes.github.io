@@ -18,24 +18,43 @@
     "thumbnail": "thumbnails/activism.png",
     "description": "This project was created in partnership with the Smithsonian Institution during a joined collaboration with Parsons School of Design. It attempts to answer questions such as: What historic movements associated with activism have taken place throughout history? What ephemeral artifacts, such as posters and pamphlets, have we preserved in museums? How has the imagery evolved throughout time?"
   },
-  "onexhibit": {
-    "name": "On Exhibit: What's in the Smithsonian: The World's Largest Museum?",
+  "error_bars": {
+    "name": "Visualizing Uncertainty in Polling Data",
     "links": {
-      "page": "onexhibit",
-      "live": {"name": "On Exhibit: What's in the Smithsonian?", "src_link": "https://yoanacodes.github.io/projects/on_exhibit/"},
-      "github": {"name": "Link to github", "src_link": "https://github.com/yoanacodes/portfolio-projects/tree/main/on_exhibit"},
+      "page": "error_bars",
+      "live": {"name": "Visualizing Uncertainty in Polling Data", "src_link": "https://yoanacodes.github.io/projects/error_bars/"},
+      "github": {"name": "Link to github", "src_link": "https://github.com/yoanacodes/portfolio-projects/tree/main/error_bars"},
       "notebook": false
     },
     "technologies": {
       "design": ["Figma"],
       "data_visualization": ["D3.js"],
-      "data_analysis": ["Node.js", "underscore.js"],
+      "data_analysis": ["Python", "Pandas"],
       "front-end": ["Vue.js", "Vuetify", "Vuex", "JavaScript", "HTML5", "SASS"],
       "back-end": false
     },
-    "datasrc": [ {"name": "Smithsonian Open Access API", "src": "https://edan.si.edu/openaccess/apidocs/", "src_link": "https://edan.si.edu/openaccess/apidocs/"}, {} ],
-    "thumbnail": "thumbnails/onexhibit-2.png",
-    "description": "On Exhibit focuses on artifacts that are exhibited, digitalized and part of the open access API of the Smithsonian Institution, as this gives an interesting perspective on the restrictions museums face in making their collections more accessible to the public. This approach creates, in a way, an online tour of the available artifacts in each museum."
+    "datasrc": [ {"name": "How Popular is Joe Biden?", "src": "https://projects.fivethirtyeight.com/biden-approval-rating/", "src_link": "https://projects.fivethirtyeight.com/biden-approval-rating/"} ],
+    "thumbnail": "thumbnails/error-bars.png",
+    "description": "This project proposes a novel way to visualize uncertainty, specifically in polling data. Uncertainty in polling data is often represented by statistical concepts such as margin of error, standard deviation or confidence intervals, which are not easily understood by people with little to no background in statistics. This project suggest using intuitive measures and language, such as minimum, maximum, and average, to make uncertainty data available to everyone."
+  },
+  "thesis": {
+    "name": "Is Food Making You Sick? Exploring the Relationship Between Nutrition and Health",
+    "links": {
+      "page": "thesis",
+      "live": {"name": "Is Food Making You Sick", "src_link": "https://thesis.yoanacodes.com"},
+      "github": {"name": "Link to github", "src_link": "https://github.com/yoanacodes/thesis"},
+      "notebook": false
+    },
+    "technologies": {
+      "design": ["Figma"],
+      "data_visualization": ["D3.js"],
+      "data_analysis": ["Node.js", "Python", "Pandas", "Matplotlib", "underscore.js"],
+      "front-end": ["Vue.js", "Vuetify", "Vuex", "JavaScript", "HTML5", "SASS"],
+      "back-end": ["MySQL", "Node.js", "Express"]
+    },
+    "datasrc": [ {"name": "Global Dietary Database", "src": "https://www.globaldietarydatabase.org/", "src_link": "https://www.globaldietarydatabase.org/"}, {"name": "Global Burden of Diseases", "src": "https://www.healthdata.org/gbd/2019", "src_link": "https://www.healthdata.org/gbd/2019"} ],
+    "thumbnail": "thumbnails/thesis.png",
+    "description": "Is Food Making You Sick? is exploring the relationship between diet and health in 184 countries through the analysis and visualization of extensive data on nutritional factors and diseases. The project aims to study and visualize these relationships by juxtaposing 42 nutrients and 84 health conditions, allowing users to explore and analyze them."
   },
   "alcoholicsAnonMap": {
     "name": "Alcoholics Anonymous Meetings Map",
@@ -56,6 +75,25 @@
     "thumbnail": "thumbnails/aa.png",
     "description": "This project plots all Alcoholics Anonymous meetings in Manhattan. It helps users find meetings that would match their schedule and needs, filtered based on several criteria. The main goal of the project was to create a user-friendly interface, that is simple to navigate and efficient."
   },
+   "onexhibit": {
+    "name": "On Exhibit: What's in the Smithsonian: The World's Largest Museum?",
+    "links": {
+      "page": "onexhibit",
+      "live": {"name": "On Exhibit: What's in the Smithsonian?", "src_link": "https://yoanacodes.github.io/projects/on_exhibit/"},
+      "github": {"name": "Link to github", "src_link": "https://github.com/yoanacodes/portfolio-projects/tree/main/on_exhibit"},
+      "notebook": false
+    },
+    "technologies": {
+      "design": ["Figma"],
+      "data_visualization": ["D3.js"],
+      "data_analysis": ["Node.js", "underscore.js"],
+      "front-end": ["Vue.js", "Vuetify", "Vuex", "JavaScript", "HTML5", "SASS"],
+      "back-end": false
+    },
+    "datasrc": [ {"name": "Smithsonian Open Access API", "src": "https://edan.si.edu/openaccess/apidocs/", "src_link": "https://edan.si.edu/openaccess/apidocs/"}, {} ],
+    "thumbnail": "thumbnails/onexhibit-2.png",
+    "description": "On Exhibit focuses on artifacts that are exhibited, digitalized and part of the open access API of the Smithsonian Institution, as this gives an interesting perspective on the restrictions museums face in making their collections more accessible to the public. This approach creates, in a way, an online tour of the available artifacts in each museum."
+  },
   "conspiracies": {
     "name": "What Do You Believe in? Measuring Belief in Conspiracy Theories",
     "links": {
@@ -74,7 +112,7 @@
     "datasrc": [ {"name": "Measuring Belief in Conspiracy Theories", "src": "source name", "src_link": "https://www.kaggle.com/yamqwe/measuring-belief-in-conspiracy-theories"}, {} ],
     "thumbnail": "thumbnails/conspiracies.png",
     "description": "Conspiracy theories and the belief in them have exponentially grown in the last few years and are increasingly influencing public opinion and life. Therefore, it is of great importance to analyze what we know historically about what makes certain groups more likely to subscribe to such believes and see if there are any strategies successfully employed in the past to unite people who are likely to be divided by such believes. This project explores which conspiracy theories are most 'popular' and if there is any pattern in the way different demographic groups respond to them."
-  },  
+  },
   "sotu": {
     "name": "State of the Union Speeches",
     "links": {
@@ -94,6 +132,7 @@
     "thumbnail": "thumbnails/sotu.png",
     "description": "How do presidential speeches differ among presidents as well as between different years for the same president? Is there an overarching language pattern or does the context of the time period the speech was given in determine its language? This project is focused on the ability to compare Presidents' speeches and visualizing which words they used the most."
   },
+
   "airquality": {
     "name": "Air Quality in New York City",
     "links": {
@@ -112,7 +151,7 @@
     "datasrc": [ {"name": "NYCCAS Air Quality Indicators Open Data", "src": "NYC Open Data", "src_link": "https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r"}, {} ],
     "thumbnail": "thumbnails/airquality.png",
     "description": "This project leverages data visualization to uncover different trends in the air quality of New York City and how they affect the population’s health. By looking at how air quality correlates with different metrics such as Asthma Hospitalizations or Cardiac and Respiratory Deaths in the context of the city geography, we facilitate the analysis of the data and decision making."
-  },  
+  },
   "earthquakesMonitor": {
     "name": "Earthquakes Monitor",
     "links": {
